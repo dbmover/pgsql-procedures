@@ -1,0 +1,13 @@
+{
+    "name": "dbmover/pgsql-procedures",
+    "description": "Dbmover plugin for (re)creating PostgreSQL procedures",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marijn Ophorst",
+            "email": "marijn@monomelodies.nl"
+        }
+    ],
+    "require": {}
+}
