@@ -39,7 +39,7 @@ class Plugin extends Procedures\Plugin
             if (!$this->loader->shouldBeIgnored($routine['routinename'])) {
                 $format->execute([$routine['routinename'], $uid]);
                 while ($query = $format->fetchColumn()) {
-                    $this->loader->addOperation($query);
+                    $this->addOperation($query);
                 }
             }
         }
