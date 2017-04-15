@@ -13,6 +13,8 @@
         "dbmover/procedures": "^0.6.0"
     },
     "autoload": {
-        "Dbmover\\Pgsql\\Procedures\\": "./src"
+        "psr-4": {
+            "Dbmover\\Pgsql\\Procedures\\": "./src"
+        }
     }
 }
