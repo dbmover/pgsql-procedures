@@ -13,7 +13,7 @@ use PDO;
 
 class Plugin extends Procedures\Plugin
 {
-    const REGEX = "@^CREATE (FUNCTION|PROCEDURE).*?AS.*?LANGUAGE '.*?';$@ms";
+    const REGEX = "@^CREATE (FUNCTION|PROCEDURE).*?AS.*?LANGUAGE '.*?'(\s+(VOLATILE|STABLE|IMMUTABLE))?;$@ms";
 
     protected function dropExistingProcedures()
     {
