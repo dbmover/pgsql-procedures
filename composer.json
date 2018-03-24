@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "dbmover/procedures": "^0.6.0"
+        "dbmover/procedures": "^0.6.3"
     },
     "autoload": {
         "psr-4": {
