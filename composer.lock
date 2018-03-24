@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "58a95ba20ccf6c4b9755f922dea3fb16",
-    "content-hash": "49f2654d8303a7a90aaa811393322654",
+    "hash": "acaf56f6ca6e4b8ab9b75c6d270e741c",
+    "content-hash": "6fa72ece438be5dd43beef9bbbe37627",
     "packages": [
         {
             "name": "dbmover/core",
-            "version": "0.7.0",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dbmover/core.git",
-                "reference": "b94862d0a6f24ff7be859b3187cddbe52513fcc3"
+                "reference": "65ebb5fb410080f1a533892f86fe795923d74d28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dbmover/core/zipball/b94862d0a6f24ff7be859b3187cddbe52513fcc3",
-                "reference": "b94862d0a6f24ff7be859b3187cddbe52513fcc3",
+                "url": "https://api.github.com/repos/dbmover/core/zipball/65ebb5fb410080f1a533892f86fe795923d74d28",
+                "reference": "65ebb5fb410080f1a533892f86fe795923d74d28",
                 "shasum": ""
             },
             "require": {
@@ -50,24 +50,24 @@
                 }
             ],
             "description": "PHP-based database versioning tool, core components",
-            "time": "2018-03-24 07:05:17"
+            "time": "2018-03-24 17:47:12"
         },
         {
             "name": "dbmover/procedures",
-            "version": "0.6.3",
+            "version": "0.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dbmover/procedures.git",
-                "reference": "290504e37f3bd10053161ee0ec516ab96f83a5a6"
+                "reference": "42b56ad492149ecf2caab29e25254b21d8a21d02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dbmover/procedures/zipball/290504e37f3bd10053161ee0ec516ab96f83a5a6",
-                "reference": "290504e37f3bd10053161ee0ec516ab96f83a5a6",
+                "url": "https://api.github.com/repos/dbmover/procedures/zipball/42b56ad492149ecf2caab29e25254b21d8a21d02",
+                "reference": "42b56ad492149ecf2caab29e25254b21d8a21d02",
                 "shasum": ""
             },
             "require": {
-                "dbmover/core": "^0.7.0",
+                "dbmover/core": "^0.8.0",
                 "php": ">=7.2"
             },
             "type": "library",
@@ -87,7 +87,7 @@
                 }
             ],
             "description": "Dbmover plugin to (re)create procedures",
-            "time": "2018-03-24 07:49:52"
+            "time": "2018-03-24 17:50:30"
         },
         {
             "name": "monomelodies/kingconf",
@@ -204,6 +204,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.2"
+    },
     "platform-dev": []
 }
