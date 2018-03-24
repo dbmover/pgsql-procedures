@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.2",
-        "dbmover/procedures": "^0.6.3"
+        "dbmover/procedures": "^0.6.4"
     },
     "autoload": {
         "psr-4": {
