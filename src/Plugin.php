@@ -15,7 +15,10 @@ class Plugin extends Procedures\Plugin
 {
     const REGEX = "@^CREATE (FUNCTION|PROCEDURE).*?AS.*?LANGUAGE '.*?'(\s+(VOLATILE|STABLE|IMMUTABLE))?;$@ms";
 
-    protected function dropExistingProcedures()
+    /**
+     * @return void
+     */
+    protected function dropExistingProcedures() : void
     {
         $stmt = $this->loader->getPdo()->prepare("SELECT usesysid FROM pg_user WHERE usename = ?");
         $stmt->execute([$this->loader->getUser()]);
