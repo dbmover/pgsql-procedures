@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "php": ">=7.2",
         "dbmover/procedures": "^0.6.3"
     },
     "autoload": {
